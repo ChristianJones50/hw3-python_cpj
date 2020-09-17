@@ -10,7 +10,7 @@ def digit_sum(n):
 
 def run():
   intMain = int(input("Enter an int: "))
-  print(f"sum of digits {intMain} is {digit_sum(intMain)}.")
+  print(f"sum of digits of {intMain} is {digit_sum(intMain)}.")
 
 if __name__ == "__main__":
   run()
